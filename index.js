@@ -150,10 +150,81 @@ console.log(resultNum)
 
 
 let boolean = true
+let string5 = " Is the value"
 console.log("type of = "+typeof(boolean))
 
 let resutlBoolean = String(boolean)
 console.log("type of = "+typeof(resutlBoolean))
 
+
+
+console.log(resutlBoolean + string5)
+
+
+
+// if statement 
+
+// Q-13 if 
+
+let a4 = 10
+
+if(a4 > 0){
+    console.log("a is positive")
+}
+
+
+// Q-14 if
+
+
+let temperature = 30
+
+if(temperature > 25){
+    console.log("It's hot day outside")
+}
+
+if(temperature < 25){
+    console.log("It's cold day outside")
+}
+
+
+// Nested  if-else 
+
+// Q-15 nested if-else
+
+
+let a5 = 0
+
+
+if(a5 > 0){
+    console.log("a is positive")
+
+}
+else {
+    console.log("a is negative")
+}
+if (a5 == 0){
+    console.log("a is  zero")
+}
+
+
+// q-16 if elase
+
+
+let grade = 75
+
+
+if(grade >= 90){
+    console.log("Grade is A")
+}
+else if(89 grade < 80){
+    console.log("Grade is B")
+}
+
+// else if(70 < grade < 79){
+//     console.log("Grade is C")
+// }
+// else if(grade <= 70){
+//     console.log("Grade is D")
+// }
 
 
